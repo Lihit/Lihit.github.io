@@ -4,7 +4,7 @@
 
 Jekyll-Jacman 是为 [Jekyll](http://jekyllrb.com) 设计的一款清新且具有响应式的主题，拥有更丰富的特性并支持了很多的国内服务。Jacman 始于 [Hexo Jacman](https://github.com/wuchong/jacman) 移植而来。
 
- * [主题演示](http://simpleyyt.github.io/jekyll-jacman/)
+ * [主题演示](http://Lihit.github.io)
  * [如何使用 Jacman 主题](http://simpleyyt.github.io/jekyll-jacman/jekyll/2015/09/20/how-to-use-jacman)
 
 ## 本地搭建
@@ -77,8 +77,3 @@ bundle exec jekyll server
 
 [MIT](/LICENSE)
 
-## 捐赠
-
-支付宝捐赠链接还是要有的，万一真的有人捐呢。
-
-![支付宝扫码捐赠](http://p1.bpimg.com/567571/9a4a158daee8aa69.png)
