@@ -1,24 +1,36 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-#relative_permalinks: true
+title: Hello, world! I'm Wenshao
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Setup
-title:               wenshao
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
+# Author Settings
+author: WenShao # add your name
+author-img: myphoto.jpg # add your photo
+about-author: 思绪来得太快，去得也太快，留下的就记一下吧. # add description
+twitter: # add your Twitter handle
+facebook: # add your Facebook handle
+github: artemsheludko # add your Github handle
+linkedin: # add your Linkedin handle
+email: # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
+
 gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "page:num"
+paginate: 8
+paginate_path: "/page/:num"
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             1.0.0
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
