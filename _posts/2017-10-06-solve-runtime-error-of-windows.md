@@ -18,7 +18,7 @@ description: windows会经常出现Visual C++ Runtime Errors这样的错误，�
 <!-- more -->
 ### runtime Error中的C:\Windows\Explorer.EXE
 这个错误我也不确定是怎样产生的，但是确实比较坑，桌面一直弹出这个界面：<br>
-![image](https://github.com/Lihit/Lihit.github.io/blob/master/assets/img/2017-10-06-solve-runtime-error-of-windows/Visual_C___error_preview.png)
+![image](https://github.com/Lihit/Lihit.github.io/blob/master/assets/img/2017-10-06-solve-runtime-error-of-windows/Visual_C___error_preview.png)<br>
 而且你还动不了桌面，一动桌面就卡，点击确定之后，桌面“重启”，然后又弹出这个界面。
 
 ### 解决这个问题的方案
