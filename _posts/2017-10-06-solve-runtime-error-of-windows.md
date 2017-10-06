@@ -33,3 +33,4 @@ description: windows会经常出现Visual C++ Runtime Errors这样的错误，�
 >* 此时电脑的桌面应该是变黑了，然后在打开的任务管理器（上图），点击`文件`，选择`运行新任务`，输入`Explorer.exe`，点击ok即可，如下图：<br>
 ![](https://raw.githubusercontent.com/Lihit/Lihit.github.io/master/assets/img/2017-10-06-solve-runtime-error-of-windows/2014-08-17_21-36-22-300x165.png)
 >* 然后问题应该就可以解决了，希望可以帮助到你～
+
