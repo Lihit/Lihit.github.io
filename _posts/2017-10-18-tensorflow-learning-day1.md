@@ -56,7 +56,7 @@ for step in range(0, 201):
         print(step, sess.run(W), sess.run(b))
 print('W:' + str(sess.run(W)) + '\tb' + str(sess.run(b)))
 ```
-结果如下：
+结果如下：<br>
 |epoch  |          W                 |      b      |
 | :-: | :-: | :-: | 
 |0      |[[ 0.0816893   0.74690914]] |[ 0.03610746]|
