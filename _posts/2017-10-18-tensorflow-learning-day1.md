@@ -9,12 +9,14 @@ categories:
 - tensorflow
 description: 正在学习Tensorflow，想做一些笔记，会定期更新。
 ---
+
 ## 前言
 关于Tensorflow的安装，这里不再累赘，Tensorflow目前已经支持了Python，C++，java等多种语言的接口，这个笔记是再python的环境下使用tensorflow的，学习的资源也是主要来自官方的文档教程，所以你也可以直接去看官方的文档。我做这个笔记的目的有三个：1.官方的文档是英文的，因此想做成简化版的中文教程，方便以后阅读。2.好记性不如烂笔头，做些笔记应该能加深印象。3.对官方的文档做一些比较好理解的逻辑归类，并记录自己的理解。
 ## 编程环境
 * Tensoflow我装的是CPU版本的，版本是1.3
 * python3.5(使用Anaconda)
 * window下和linux都可以
+
 ## Tensorflow的hello world
 在学习一门新的编程语言时，我们都习惯先打印出`hello world`来表示“入门”，tensorflow也不例外。
 ```
@@ -23,7 +25,9 @@ hello=tf.constant('hello world')
 sess=tf.Session()
 print(sess.run(hello))
 ```
+
 ## 用Tensorflow求解简单的拟合问题
+
 ```
 import tensorflow as tf
 import numpy as np
@@ -56,7 +60,9 @@ for step in range(0, 201):
         print(step, sess.run(W), sess.run(b))
 print('W:' + str(sess.run(W)) + '\tb' + str(sess.run(b)))
 ```
+
 结果如下：<br>
+
 |epoch  |          W                 |      b      |
 | :-: | :-: | :-: | 
 |0      |[[ 0.0816893   0.74690914]] |[ 0.03610746]|
