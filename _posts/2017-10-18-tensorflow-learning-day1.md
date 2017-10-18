@@ -11,7 +11,7 @@ description: 正在学习Tensorflow，想做一些笔记，会定期更新。
 ---
 ## 前言
 关于Tensorflow的安装，这里不再累赘，Tensorflow目前已经支持了Python，C++，java等多种语言的接口，这个笔记是再python的环境下使用tensorflow的，学习的资源也是主要来自官方的文档教程，所以你也可以直接去看官方的文档。我做这个笔记的目的有三个：1.官方的文档是英文的，因此想做成简化版的中文教程，方便以后阅读。2.好记性不如烂笔头，做些笔记应该能加深印象。3.对官方的文档做一些比较好理解的逻辑归类，并记录自己的理解。
-## 学习环境
+## 编程环境
 * Tensoflow我装的是CPU版本的，版本是1.3
 * python3.5(使用Anaconda)
 * window下和linux都可以
@@ -24,7 +24,7 @@ sess=tf.Session()
 print(sess.run(hello))
 ```
 ## 用Tensorflow求解简单的拟合问题
-```
+```python
 import tensorflow as tf
 import numpy as np
 
@@ -73,6 +73,11 @@ print('W:' + str(sess.run(W)) + '\tb' + str(sess.run(b)))
 W:[[ 0.1         0.20000391]]   b[ 0.29999796]
 ```
 可见得到的结果是很接近真实的W和b。
+
+
+
+
+
 
 
 
