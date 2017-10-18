@@ -19,7 +19,7 @@ description: 正在学习Tensorflow，想做一些笔记，会定期更新。
 
 ## Tensorflow的hello world
 在学习一门新的编程语言时，我们都习惯先打印出`hello world`来表示“入门”，tensorflow也不例外。
-```
+```python
 import tensorflow as tf
 hello=tf.constant('hello world')
 sess=tf.Session()
@@ -28,7 +28,7 @@ print(sess.run(hello))
 
 ## 用Tensorflow求解简单的拟合问题
 
-```
+```python
 import tensorflow as tf
 import numpy as np
 
