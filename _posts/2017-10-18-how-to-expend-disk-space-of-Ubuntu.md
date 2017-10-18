@@ -3,7 +3,8 @@ layout: post
 title: 扩展虚拟机Ubuntu的磁盘容量
 date: 2017-10-18
 tags:
-- 系统
+- 系统问题
+- 虚拟机
 categories: 
 - ubuntu
 description: 关于如何解决在虚拟机下，给Ubuntu系统扩展磁盘容量的问题。
@@ -17,7 +18,7 @@ description: 关于如何解决在虚拟机下，给Ubuntu系统扩展磁盘容�
 * 虚拟机中装的是`Ubuntu14.04`.
 * 主机是`Win7`.
 
-##　解决方案
+## 解决方案
 * 点击`VMware Workstation Pro`这个软件菜单栏的`虚拟机`，再选择`设置`，如下图：<br>
 ![](https://raw.githubusercontent.com/Lihit/Lihit.github.io/master/assets/img/2017-10-18-how-to-expend-disk-space-of-Ubuntu/p1.PNG)
 * 点击`硬盘(SCSI)`,再点击`扩展`，将容量调成合适的大小，点击确定
@@ -25,7 +26,7 @@ description: 关于如何解决在虚拟机下，给Ubuntu系统扩展磁盘容�
     * 打开终端，输入`sudo apt-get update` 更新你的系统软件
     * 再`sudo apt-get install gparted `
 * 安装完之后打开这个软件`sudo gparted`，如下图：<br>
-![](https://raw.githubusercontent.com/Lihit/Lihit.github.io/master/assets/img/2017-10-18-how-to-expend-disk-space-of-Ubuntu/p2.png)
+![](https://raw.githubusercontent.com/Lihit/Lihit.github.io/master/assets/img/2017-10-18-how-to-expend-disk-space-of-Ubuntu/p2.png)<br>
 *　**这一步要视情况而定**　从上图可以看到我的主分区是`/dev/sda1`,但是刚分配的磁盘是`unallocated`,他是跟在`/dev/sd2`后面的，需要注意的是要扩展的分区要相邻，因此我这里是不能直接对｀sd1｀进行扩展的，如果你要扩展的分区后面直接连着刚分配的磁盘空间，可以忽略这一步。因此需要将`/dev/sda2`和其下边的`/dev/sda5`删除，**在删除之前建议先备份**。具体步骤如下：
     * 右键`/dev/sda5`,选择`swapoff`
     * 再右键`/dev/sda5`选择`delete`

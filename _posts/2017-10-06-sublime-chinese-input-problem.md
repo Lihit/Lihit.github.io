@@ -3,7 +3,7 @@ layout: post
 title: 解决ubuntu下sublime text中文输入问题
 date: 2017-10-06
 tags:
-- bug
+- 系统问题
 - sublime
 categories: 
 - ubuntu 

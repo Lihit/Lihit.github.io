@@ -3,8 +3,7 @@ layout: post
 title: 如何解决windows出现的runtime error C:\WINDOWS\explorer.exe问题
 date: 2017-10-06
 tags:
-- bug
-- 系统错误
+- 系统问题
 categories: 
 - windows
 description: windows会经常出现Visual C++ Runtime Errors这样的错误，这篇博客解决的是这类错误中的C:\Windows\Explorer.EXE问题。
