@@ -24,7 +24,7 @@ sess=tf.Session()
 print(sess.run(hello))
 ```
 ## 用Tensorflow求解简单的拟合问题
-```python
+```
 import tensorflow as tf
 import numpy as np
 
