@@ -34,12 +34,14 @@ description: 使用python的face_recognition库实现一个简单的人脸打卡
             * `sudo pip install dlib`
         * 安装`face_recognition`
             * `sudo pip install face_recognition`
+
 ## 使用方式
 * 先将项目克隆到本地：`git clone https://github.com/Lihit/pcDuinoProject`.
 * 到这个项目的根目录下:`cd pcDuinoProject`.
 * 可以发现有两个文件夹`FaceRecWithGui`和`UdpServer_SavePeopleInfo`。
 * 先进入`UdpServer_SavePeopleInfo`文件夹中，打开终端，运行`pyhton recvInfoAndSave.py`,即可将保存数据到`myfile.txt`文件，如果你想将结果显示出来，再运行`python showSignupInfo.py`。
 * 再进入打开终端，运行`python main.py`即可，这里默认设置是打开摄像头进行检测识别，你也可以对视频进行检测和识别，只需要将`main.py`文件里第31行`cap = skvideo.io.VideoCapture(0)`的参数0改成你的视频文件的路径即可。具体的操作可根据Gui界面上的按钮来尝试。
+
 ## 项目架构
 * pcDuinoProject/:项目名称
     * FaceRecWithGui/:客户端项目
@@ -54,7 +56,8 @@ description: 使用python的face_recognition库实现一个简单的人脸打卡
     * UdpServer_SavePeopleInfo/:服务端项目
         * recvInfoAndSave.py:接收客户端发送过来的服务信息并保存
         * showSignupInfo.py:将保存下来的信息显示出来的gui界面
-## 结果
+
+## 成果展示
 * 录入人脸<br>
 ![Selection_045.png-220kB][1]
 * 拍照<br>
