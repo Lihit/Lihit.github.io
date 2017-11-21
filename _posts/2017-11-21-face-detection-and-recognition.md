@@ -59,9 +59,9 @@ description: 使用python的face_recognition库实现一个简单的人脸打卡
 
 ## 成果展示
 * 录入人脸<br>
-![][http://static.zybuluo.com/wenshao/qqd8njdnuoqrjpg95fk5tvyk/Selection_045.png]
+![image][http://static.zybuluo.com/wenshao/qqd8njdnuoqrjpg95fk5tvyk/Selection_045.png]
 * 拍照<br>
-![][http://static.zybuluo.com/wenshao/jyu6npji5j1bgq5x9zrq2v14/Selection_044.png]
+![image][http://static.zybuluo.com/wenshao/jyu6npji5j1bgq5x9zrq2v14/Selection_044.png]
 * 人脸识别<br>
-![][http://static.zybuluo.com/wenshao/al2mg66ykz2z4176gbt8a9hy/Selection_046.png]
+![image][http://static.zybuluo.com/wenshao/al2mg66ykz2z4176gbt8a9hy/Selection_046.png]
 
